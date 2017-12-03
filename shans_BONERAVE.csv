@@ -1,0 +1,10 @@
+0,CombatZoneResize,133,251,508,391,TLResume
+0,HeartTeleport,312,376,,,
+0,HeartMode,1,,,,
+0,TLPause,,,,,
+0,SET,A,9999,,,
+0,SineBones,999,60,1799,55,
+0,SUB,A,$A,1,,
+18,SineBones,999,60,1799,55,
+0,JMPNZ,7,$A,,,
+12,EndAttack,,,,,
